@@ -8,7 +8,31 @@
 
     #main {
         background-color: yellow;
-        border-radius: 15%;
+
+        display: grid;
+
+        grid-template-rows: auto-fit,25% 25% 25% 25%;
+    
+        grid-template-columns: 12.5% 75% 12.5%;
+
+        grid-template-areas: 
+
+        ". header ."
+        ". image ."
+        ". content ."
+        ". link .";
+
+        justify-items: center;
+
+        
+
+        
+        
+
+
+        
+        
+        
         
     
 
@@ -20,6 +44,8 @@
        font-size: 50px;
        font-family: monospace;
        text-align: center;
+       grid-area: header;
+       
        
 
     }
@@ -27,6 +53,11 @@
 
     #img-div{
         text-align: center;
+        grid-area: image;
+        
+        
+        
+        
         
     }
 
@@ -35,8 +66,8 @@
 
 
     #image{
-        width: 250px;
-        height: 250px;
+        max-width: 100%;
+        height: auto;
         border-color: black;
         border-width: 10px;
         border-style:solid;
@@ -49,6 +80,8 @@
         display: block;
         margin: auto;
 
+        }
+
 
 
     }
@@ -56,7 +89,7 @@
         transform: scale(1.1);
     }
 
-    #img-des{
+    #img-caption{
         margin-top: 5%;
         font-family: monospace;
     }
@@ -68,6 +101,9 @@
         text-align: center;
         font-family: monospace;
         font-size: x-large;
+        grid-area: content;
+width:  75%;
+        
 
     
         
@@ -75,11 +111,17 @@
 
     #read-more{
         text-align: center;
-        margin-top: 50%;
         font-family: monospace;
         font-size: large;
+        grid-area: link;
+        
+
+      
         
     }
+    
+ 
+        
 
 
 </style>
@@ -114,13 +156,15 @@
             <!--
                 Image description
             -->
-            <p id="img-des">
+            <p id="img-caption">
                 Famously known for being Nirvana's lead singer 
 
             </p>    
         </div>
 
-        <hr color="black" >
+     
+
+        
            <!--
             Sub-title
         -->                  
@@ -131,6 +175,26 @@
         -->
             <p>
                 Kurt Donald Cobain was an American singer-songwriter and musician, best known as the guitarist, primary songwriter and frontman of the rock band Nirvana. Through his angst-fueled songwriting and anti-establishment persona, Cobain's compositions widened the thematic conventions of mainstream rock music.
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sodales nibh non ante consequat, at imperdiet mi posuere. Phasellus dapibus aliquam hendrerit. Sed semper neque non dolor hendrerit tristique. Fusce ullamcorper pretium sem, sed viverra nibh tristique id. Etiam semper cursus eros a commodo. Maecenas convallis metus dui, quis tincidunt orci condimentum in. Praesent maximus sagittis ligula non congue. Sed sem ante, bibendum ac iaculis quis, placerat non tortor. Nunc cursus tempor arcu, condimentum accumsan enim faucibus at. Cras eu lectus nec urna sagittis rutrum vel ultricies ante. Sed a commodo orci, quis lobortis nibh. Ut ut libero diam. Pellentesque at ullamcorper nisi. Nam orci enim, volutpat non mi ut, volutpat rhoncus enim.
+
+Aliquam tempus elit eget lacus bibendum, rutrum luctus erat vestibulum. Pellentesque finibus molestie egestas. Vestibulum pharetra ultricies purus, id varius tortor vehicula eget. Donec consequat felis in velit malesuada pulvinar. Vestibulum vitae dui vel ligula aliquam interdum vitae in tellus. Nulla non luctus velit. Vivamus id justo non lacus cursus finibus et vitae nulla. Fusce elementum vestibulum pellentesque. Quisque egestas vel tellus ut dignissim. Praesent eget sapien sit amet lacus luctus commodo sit amet sit amet purus. Nunc porta id nisi vitae viverra. Aliquam quis rhoncus tortor, tempor auctor lacus. Mauris elit urna, pellentesque in mollis eu, luctus id lorem.
+
+Maecenas eu arcu malesuada ipsum vulputate fermentum. Nam non sollicitudin odio. Mauris cursus lacus sed libero viverra, eu facilisis justo congue. Suspendisse potenti. Duis arcu neque, faucibus vel egestas eget, eleifend non ligula. Nullam non magna at mi dignissim suscipit. Phasellus id mattis risus. Fusce euismod velit non eleifend imperdiet.
+
+Sed finibus diam nibh, a faucibus risus vulputate non. Nulla eget aliquam ante. Donec et vulputate justo. Pellentesque ut enim et ante tristique varius non et lacus. Aenean et ullamcorper tellus. Nam justo risus, ultrices sollicitudin augue mattis, gravida dictum velit. In sit amet arcu id nisl aliquam vulputate in eu nisi. Vestibulum non scelerisque ipsum. Nunc nulla massa, malesuada sollicitudin efficitur ut, fermentum a metus. Aenean nibh ligula, ultricies congue est sit amet, efficitur maximus diam.
+
+Etiam dignissim imperdiet turpis, ac scelerisque quam auctor in. Vestibulum id malesuada ipsum, nec molestie sapien. Quisque dictum libero vitae facilisis tempor. Integer tristique condimentum massa, in facilisis est. Sed rhoncus non mauris eu finibus. Sed ac turpis ut dui molestie finibus. Aenean auctor fermentum consequat. Fusce eu erat volutpat, feugiat ex at, tincidunt enim. Vestibulum mi diam, pharetra nec imperdiet in, ultricies et metus. In hac habitasse platea dictumst. Sed faucibus ipsum ut diam consequat lobortis. Pellentesque lobortis id eros eget sodales. Praesent faucibus erat tellus, vel dignissim eros lobortis nec.
+
+Curabitur eget lorem suscipit, lacinia sapien a, consequat ex. Mauris feugiat, diam nec sagittis porta, ipsum ante euismod odio, eget dapibus neque augue ac arcu. Pellentesque ornare volutpat condimentum. Nulla tincidunt metus sed libero placerat imperdiet. Fusce sagittis ipsum ligula, in sollicitudin leo eleifend at. Cras diam nisl, vehicula a mattis eget, faucibus vel felis. Praesent tempus sapien quis dignissim interdum.
+
+Etiam vel sodales dolor, sit amet feugiat ipsum. Phasellus elementum rutrum orci, in aliquet felis venenatis ut. Sed elementum lobortis orci vel pretium. Phasellus fermentum turpis ac pretium tempor. Nunc et blandit massa. In efficitur gravida felis eget rhoncus. Suspendisse potenti. Vestibulum nibh felis, mollis ornare ante ut, interdum suscipit lectus. Donec elementum vitae sem eu molestie. Fusce ac tellus fermentum, imperdiet diam nec, malesuada quam. Duis aliquet urna ut faucibus convallis.
+
+Vivamus pharetra scelerisque nisl quis iaculis. Praesent blandit tortor sed tempus blandit. Ut luctus tincidunt neque, in mattis nibh mattis tempus. Suspendisse at erat lacus. Integer tincidunt lacus turpis. Aliquam sit amet urna facilisis urna blandit vulputate. Donec fringilla venenatis nisl, eu finibus nulla vestibulum quis.
+
+Suspendisse ullamcorper diam et nibh accumsan, id sagittis dui cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam libero urna, hendrerit ac volutpat ac, aliquam in enim. Vestibulum convallis, neque ut congue pretium, sem felis varius erat, quis condimentum ipsum neque sed mauris. Sed a venenatis erat. Donec nec libero nibh. Maecenas luctus tellus sit amet lectus eleifend, in pharetra purus venenatis. Curabitur imperdiet odio ut turpis accumsan, eu mollis erat varius. Vivamus non egestas ligula, eu tempus metus. Vestibulum tristique metus felis, id aliquet justo tempus sit amet. Quisque vulputate, ipsum ullamcorper bibendum consequat, metus elit ultricies justo, quis dictum quam mauris vitae augue. Mauris vitae metus non mauris eleifend pulvinar. Aliquam venenatis massa quam, in tempor est aliquet ultrices. Vestibulum massa leo, aliquet a magna ac, vehicula sagittis sapien. Etiam et purus ut urna porttitor lobortis. Praesent finibus mollis fringilla.
+
+Morbi placerat maximus urna. Curabitur lacinia ipsum et nisl fringilla faucibus. Proin aliquam sit amet mi sit amet bibendum. Phasellus in mollis lectus. Sed tristique condimentum ligula, ut lacinia enim malesuada nec. Duis fermentum dui arcu, ac facilisis augue lacinia id. Ut porttitor vel nibh ac venenatis. Phasellus maximus orci in ante varius, sed consectetur ipsum commodo.
             </p>
         </div>
 
