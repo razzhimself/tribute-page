@@ -8,7 +8,7 @@
 
     display: grid;
 
-    grid-template-rows: auto-fit,25% 25% 25% 25%;
+    grid-template-rows:auto;
 
     grid-template-columns: 12.5% 75% 12.5%;
 
@@ -21,6 +21,9 @@
 
     justify-items: center;
 }
+
+
+
 
 
 #title{
@@ -62,15 +65,46 @@
 }
 
 #img-caption{
-    margin-top: 5%;
+    margin-top: 7.5%;
     font-family: monospace;
 }
 
-#div-image-2{
-    text-align: content;
-    grid-area: image;
+#tribute-info{
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+    
+    border-width: 10px;
+    border-style:solid;
+    border-radius: 5%;
+    border-color: black;
+    
+    font-family: monospace;
+    font-size: x-large;
+    grid-area: content;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header-2 "
+    " sec-1 "
+    " sec-2 "
+    " sec-3 "
+    " sec-4 ";
+
+    padding: 5%;
+width:  100%;
+    
 }
-#image-2{
+
+#header-2{
+    text-align: center;
+}
+
+#div-image-1{
+    text-align: content;
+    grid-area: img-1;
+}
+#image-1{
     max-width: 75%;
     height: auto;
     border-radius: 25px;
@@ -81,9 +115,34 @@
     margin: auto;
 }
 
-#div-image-3{
+#sec-1{
+    grid-area: sec-1;
+}
+
+#div-image-2{
     text-align: content;
-    grid-area: image;
+    grid-area: img-2;
+    margin-top: 5%;
+}
+#image-2{
+    max-width: 75%;
+    height: auto;
+    mix-blend-mode: multiply;
+    border-radius: 5%;
+    display: block;
+    margin: auto;
+    
+    
+}
+
+#sec-2{
+    grid-area: sec-2;
+}
+
+
+#div-image-3{
+    text-align: link;
+    grid-area: img-3;
     margin-top: 5%;
 }
 #image-3{
@@ -92,31 +151,38 @@
     mix-blend-mode: multiply;
     border-radius: 5%;
     display: block;
-    margin: auto;
+    margin: auto;    
     
+}
+#sec-3{
+    grid-area: sec-3;
 }
 
 
-#tribute-info{
-    color: black;
-    text-align: center;
-    /*
-    border-width: 10px;
-    border-style:solid;
+#div-image-4{
+    grid-area: img-4;
+    margin-top: 5%;
+}
+#image-4{
+    max-width: 75%;
+    height: auto;
+    mix-blend-mode: multiply;
     border-radius: 5%;
-    border-color: black;
-    */
-    font-family: monospace;
-    font-size: x-large;
-    grid-area: content;
-    padding: 5%;
-width:  100%;
-    
+    display: block;
+    margin: auto;  
+
 }
+
+#sec-4{
+    grid-area: sec-4;
+}
+
+
 
 
 #read-more{
     text-align: center;
+    width: auto;
     font-family: monospace;
     font-size: large;
     grid-area: link;
