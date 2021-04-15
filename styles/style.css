@@ -4,7 +4,7 @@
 }
 
 #main {
-    background-color: yellow;
+    background-color: black;
 
     display: grid;
 
@@ -27,7 +27,7 @@
 
 
 #title{
-   color: black; 
+   color: yellow; 
    font-size: 50px;
    font-family: monospace;
    text-align: center;
@@ -40,8 +40,6 @@
     text-align: center;
     grid-area: image;
   
-
-
 }
 
 
@@ -49,10 +47,10 @@
 #image{
     max-width: 100%;
     height: auto;
-    mix-blend-mode: multiply;
+    /*mix-blend-mode: multiply;*/
     border-radius: 50%;
     padding: 10px;
-    box-shadow: 5px 10px 20px black;
+    box-shadow: 5px 10px 20px yellow;
     border-width: 10px;
     border-style: solid;
     display: block;
@@ -67,17 +65,19 @@
 #img-caption{
     margin-top: 7.5%;
     font-family: monospace;
+    color: yellow;
 }
 
 #tribute-info{
-    color: black;
+    color: yellow;
     text-align: center;
     margin-top: 5%;
+    
     
     border-width: 10px;
     border-style:solid;
     border-radius: 5%;
-    border-color: black;
+    border-color: yellow;
     
     font-family: monospace;
     font-size: x-large;
@@ -186,7 +186,12 @@ width:  100%;
     font-family: monospace;
     font-size: large;
     grid-area: link;
+    color: yellow;
        
+}
+
+#tribute-link{
+    color: yellow;
 }
 
 
