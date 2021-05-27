@@ -1,6 +1,4 @@
 # tribute-page
-write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it.
+This project is a tribute page for kurt cobain,famously known for being Nirvana's lead singer.
 
-<!-- A tribute page to Kurt Cobain.
-In order to complete it I had to use html and CSS.
--->
+In order to build the project I've used HTML & CSS 

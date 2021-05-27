@@ -1,0 +1,47 @@
+[33mcommit 59989b3d5581fe01f300e873c52a0f4e48b3c97e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Raz Kushnir <razzhimself@gmail.com>
+Date:   Tue Apr 13 11:59:08 2021 +0300
+
+    styles folder contains style.css file
+
+[33mcommit 23955206559609448a23ab5ddfa5d27b44158ef6[m
+Author: Raz Kushnir <razzhimself@gmail.com>
+Date:   Tue Apr 13 11:57:35 2021 +0300
+
+    moved all css selectors to a seperated css file to make html file cleaner
+
+[33mcommit 794c08d79f09f415b880589ec68b9826a9762a8c[m
+Author: Raz Kushnir <razzhimself@gmail.com>
+Date:   Tue Apr 13 11:23:42 2021 +0300
+
+    added writtern content and images
+
+[33mcommit d06c3d37af86bf1c20461537b7fb98164252e910[m
+Author: Raz Kushnir <razzhimself@gmail.com>
+Date:   Mon Apr 12 09:39:30 2021 +0300
+
+    layout with CSS grid
+
+[33mcommit ccee9782070d671533c6dbb3aabe2ba78c141ae9[m
+Author: Raz Kushnir <razzhimself@gmail.com>
+Date:   Sun Apr 11 17:17:57 2021 +0300
+
+    rounded main container's border and changed all text's font family to monospace
+
+[33mcommit 11b9a8e91eaa3f24c88c501ff2e6616ebc391feb[m
+Author: Raz Kushnir <razzhimself@gmail.com>
+Date:   Sun Apr 11 16:55:42 2021 +0300
+
+    Added Transform scale Property to Scale an Element on Hover
+
+[33mcommit 095c7049c24f2ddce83f8c6fa1db561e8542d1aa[m
+Author: Raz Kushnir <razzhimself@gmail.com>
+Date:   Sun Apr 11 16:41:55 2021 +0300
+
+    initial structure of the tribute page
+
+[33mcommit 6c33a85d60baa93e9f717591ea46b8825c3be9d3[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Raz Kushnir <65572534+razzhimself@users.noreply.github.com>
+Date:   Sun Apr 11 10:40:15 2021 +0300
+
+    Initial commit
